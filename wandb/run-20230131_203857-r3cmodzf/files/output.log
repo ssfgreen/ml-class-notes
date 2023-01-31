@@ -1,0 +1,160 @@
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_1 (Conv2D)           (None, 26, 26, 32)        320
+ max_pooling2d_1 (MaxPooling  (None, 13, 13, 32)       0
+ 2D)
+ flatten_1 (Flatten)         (None, 5408)              0
+ dense_2 (Dense)             (None, 100)               540900
+ dense_3 (Dense)             (None, 10)                1010
+=================================================================
+Total params: 542,230
+Trainable params: 542,230
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/10
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+[34m[1mwandb[39m[22m: [33mWARNING[39m The data_type argument of wandb.keras.WandbCallback is deprecated and will be removed in a future release. Please use input_type instead.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Setting input_type = data_type.
+2023-01-31 20:40:00.859799: W tensorflow/tsl/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2023-01-31 20:40:01.142905: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:114] Plugin optimizer for device_type GPU is enabled.
+
+
+
+
+
+
+
+
+1510/1875 [=======================>......] - ETA: 3s - loss: 0.1851 - accuracy: 0.9460Epoch 1/10
+
+
+
+
+
+
+
+
+
+1835/1875 [============================>.] - ETA: 0s - loss: 0.0614 - accuracy: 0.9813
+
+1874/1875 [============================>.] - ETA: 0s - loss: 0.0609 - accuracy: 0.9814
+2/2 [==============================] - 0s 66ms/steps - loss: 0.0609 - accuracy: 0.9814
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 23s 12ms/step - loss: 0.0609 - accuracy: 0.9815 - val_loss: 0.0589 - val_accuracy: 0.9801
+Epoch 2/10
+
+
+
+
+
+
+1874/1875 [============================>.] - ETA: 0s - loss: 0.0396 - accuracy: 0.9882
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0396 - accuracy: 0.9882
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+1875/1875 [==============================] - 23s 12ms/step - loss: 0.0396 - accuracy: 0.9882 - val_loss: 0.0478 - val_accuracy: 0.9832
+Epoch 3/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0275 - accuracy: 0.9913
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best)... Done. 0.0s
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0274 - accuracy: 0.9913 - val_loss: 0.0442 - val_accuracy: 0.9858
+Epoch 4/10
+
+
+
+
+
+
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0180 - accuracy: 0.9944
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0180 - accuracy: 0.9944
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0180 - accuracy: 0.9944 - val_loss: 0.0429 - val_accuracy: 0.9851
+Epoch 5/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0139 - accuracy: 0.9956
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best)... Done. 0.0s
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_203857-r3cmodzf/files/model-best/assets
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0139 - accuracy: 0.9956 - val_loss: 0.0406 - val_accuracy: 0.9870
+Epoch 6/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0094 - accuracy: 0.9970
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0094 - accuracy: 0.9970 - val_loss: 0.0493 - val_accuracy: 0.9861
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0075 - accuracy: 0.9977
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0075 - accuracy: 0.9977 - val_loss: 0.0570 - val_accuracy: 0.9850
+Epoch 8/10
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0053 - accuracy: 0.9983
+1875/1875 [==============================] - 20s 11ms/step - loss: 0.0053 - accuracy: 0.9983 - val_loss: 0.0532 - val_accuracy: 0.9856
+Epoch 9/10
+
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0053 - accuracy: 0.9982
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0053 - accuracy: 0.9982 - val_loss: 0.0556 - val_accuracy: 0.9857
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0036 - accuracy: 0.9990
+1875/1875 [==============================] - 20s 11ms/step - loss: 0.0036 - accuracy: 0.9990 - val_loss: 0.0539 - val_accuracy: 0.9875

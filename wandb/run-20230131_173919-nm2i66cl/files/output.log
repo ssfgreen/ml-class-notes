@@ -10553,3 +10553,4 @@ a single 'one shot encoded' label looks like this:  [[[[[[[[[[[[1. 0.]
 a single 'one shot encoded' label looks like this:  (60000, 10, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
 (60000, 28, 28) 28 28
 (60000, 10) (10000, 10) 10 range(0, 10)
+a single 'one shot encoded' label looks like this:  [0. 0. 0. 0. 0. 1. 0. 0. 0. 0.]

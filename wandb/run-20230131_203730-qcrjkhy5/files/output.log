@@ -1,0 +1,20 @@
+2023-01-31 20:37:31.942755: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2023-01-31 20:37:31.942782: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+Metal device set to: Apple M1 Pro
+systemMemory: 32.00 GB
+maxCacheSize: 10.67 GB
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 26, 26, 32)        320
+ max_pooling2d (MaxPooling2D  (None, 13, 13, 32)       0
+ )
+ flatten (Flatten)           (None, 5408)              0
+ dense (Dense)               (None, 100)               540900
+ dense_1 (Dense)             (None, 10)                1010
+=================================================================
+Total params: 542,230
+Trainable params: 542,230
+Non-trainable params: 0
+_________________________________________________________________
