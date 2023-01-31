@@ -1,0 +1,135 @@
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ flatten_5 (Flatten)         (None, 784)               0
+ dropout (Dropout)           (None, 784)               0
+ dense_4 (Dense)             (None, 100)               78500
+ dropout_1 (Dropout)         (None, 100)               0
+ dense_5 (Dense)             (None, 10)                1010
+=================================================================
+Total params: 79,510
+Trainable params: 79,510
+Non-trainable params: 0
+_________________________________________________________________
+2023-01-31 19:04:47.530174: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:114] Plugin optimizer for device_type GPU is enabled.
+Epoch 1/10
+   6/1875 [..............................] - ETA: 19s - loss: 2.2665 - accuracy: 0.1719  WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0084s vs `on_train_batch_end` time: 0.0086s). Check your callbacks.
+
+
+
+
+
+
+
+1826/1875 [============================>.] - ETA: 0s - loss: 0.3333 - accuracy: 0.9033
+
+1874/1875 [============================>.] - ETA: 0s - loss: 0.3297 - accuracy: 0.9043
+2023-01-31 19:05:06.020367: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:114] Plugin optimizer for device_type GPU is enabled.
+2/2 [==============================] - 0s 8ms/step0s - loss: 0.3297 - accuracy: 0.9043
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.3296 - accuracy: 0.9043 - val_loss: 0.1574 - val_accuracy: 0.9531
+Epoch 2/10
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.1687 - accuracy: 0.9499
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.1687 - accuracy: 0.9499 - val_loss: 0.1124 - val_accuracy: 0.9663
+Epoch 3/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.1315 - accuracy: 0.9606
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best)... Done. 0.0s
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.1315 - accuracy: 0.9606 - val_loss: 0.0952 - val_accuracy: 0.9706
+Epoch 4/10
+
+
+
+
+
+
+
+1870/1875 [============================>.] - ETA: 0s - loss: 0.1107 - accuracy: 0.9662
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.1107 - accuracy: 0.9662
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.1106 - accuracy: 0.9662 - val_loss: 0.0890 - val_accuracy: 0.9720
+Epoch 5/10
+
+
+
+
+
+
+1873/1875 [============================>.] - ETA: 0s - loss: 0.0990 - accuracy: 0.9702
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0990 - accuracy: 0.9702
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.0989 - accuracy: 0.9703 - val_loss: 0.0798 - val_accuracy: 0.9758
+Epoch 6/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0885 - accuracy: 0.9724
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best)... Done. 0.0s
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.0885 - accuracy: 0.9724 - val_loss: 0.0748 - val_accuracy: 0.9781
+Epoch 7/10
+
+
+
+
+
+
+
+1870/1875 [============================>.] - ETA: 0s - loss: 0.0831 - accuracy: 0.9740
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0831 - accuracy: 0.9740
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 20s 10ms/step - loss: 0.0831 - accuracy: 0.9740 - val_loss: 0.0726 - val_accuracy: 0.9784
+Epoch 8/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0731 - accuracy: 0.9763
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.0732 - accuracy: 0.9762 - val_loss: 0.0770 - val_accuracy: 0.9769
+Epoch 9/10
+
+
+
+
+
+
+
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0704 - accuracy: 0.9774
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0704 - accuracy: 0.9774
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.0704 - accuracy: 0.9775 - val_loss: 0.0724 - val_accuracy: 0.9772
+Epoch 10/10
+
+
+
+
+
+
+1870/1875 [============================>.] - ETA: 0s - loss: 0.0670 - accuracy: 0.9789
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0670 - accuracy: 0.9789
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_190435-ql9eusuw/files/model-best/assets
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.0669 - accuracy: 0.9789 - val_loss: 0.0668 - val_accuracy: 0.9800

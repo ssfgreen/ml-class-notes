@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.0-arm64-arm-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-01-31T19:04:35.897005",
+    "startedAt": "2023-01-31T19:04:35.236205",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ssfgreen/ml-class-notes.git",
+        "commit": "8a770b78b229020f959b885a31f4a6fbf023a88c"
+    },
+    "email": "samsfgreen@gmail.com",
+    "root": "/Users/samgreen/Development/ml/wandb/ml-class-notebooks",
+    "host": "Sams-MacBook-Pro-2.local",
+    "username": "samgreen",
+    "executable": "/Users/samgreen/mambaforge/envs/ml-class/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 485.3939552307129
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

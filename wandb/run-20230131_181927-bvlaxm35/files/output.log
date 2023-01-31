@@ -1,0 +1,113 @@
+Epoch 1/10
+ 141/1875 [=>............................] - ETA: 16s - loss: 0.8562 - accuracy: 0.7688
+
+
+
+
+
+
+
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.2716 - accuracy: 0.9229
+2/2 [==============================] - 0s 8ms/step0s - loss: 0.2716 - accuracy: 0.9229
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best/assets
+2023-01-31 18:20:06.471201: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:114] Plugin optimizer for device_type GPU is enabled.
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.2715 - accuracy: 0.9229 - val_loss: 0.1415 - val_accuracy: 0.9570
+Epoch 2/10
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.1161 - accuracy: 0.9660
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.1160 - accuracy: 0.9660 - val_loss: 0.1002 - val_accuracy: 0.9686
+Epoch 3/10
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0823 - accuracy: 0.9749
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.0823 - accuracy: 0.9748 - val_loss: 0.0903 - val_accuracy: 0.9704
+Epoch 4/10
+
+
+
+
+
+
+2/2 [==============================] - 0s 4ms/step0s - loss: 0.0622 - accuracy: 0.9811
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.0622 - accuracy: 0.9811 - val_loss: 0.0743 - val_accuracy: 0.9770
+Epoch 5/10
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0478 - accuracy: 0.9852
+1875/1875 [==============================] - 18s 9ms/step - loss: 0.0478 - accuracy: 0.9852 - val_loss: 0.0952 - val_accuracy: 0.9711
+Epoch 6/10
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0400 - accuracy: 0.9879
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.0400 - accuracy: 0.9879 - val_loss: 0.0865 - val_accuracy: 0.9741
+Epoch 7/10
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0335 - accuracy: 0.9896
+INFO:tensorflow:Assets written to: /Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/Users/samgreen/Development/ml/wandb/ml-class-notebooks/wandb/run-20230131_181927-bvlaxm35/files/model-best)... Done. 0.0s
+1875/1875 [==============================] - 18s 9ms/step - loss: 0.0336 - accuracy: 0.9896 - val_loss: 0.0703 - val_accuracy: 0.9795
+Epoch 8/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0248 - accuracy: 0.9924
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.0249 - accuracy: 0.9923 - val_loss: 0.0840 - val_accuracy: 0.9749
+Epoch 9/10
+
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0223 - accuracy: 0.9936
+1875/1875 [==============================] - 17s 9ms/step - loss: 0.0223 - accuracy: 0.9936 - val_loss: 0.0789 - val_accuracy: 0.9760
+Epoch 10/10
+
+
+
+
+
+
+
+2/2 [==============================] - 0s 3ms/step0s - loss: 0.0186 - accuracy: 0.9942
+1875/1875 [==============================] - 18s 9ms/step - loss: 0.0186 - accuracy: 0.9942 - val_loss: 0.0831 - val_accuracy: 0.9774

@@ -1,0 +1,3 @@
+
+{'epochs': 10, 'optimizer': 'adam', 'hidden_nodes': 100}
+100
